@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kiara's Creative Corner — Products</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Patrick+Hand&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="top-banner" id="topBanner">
+    <div class="brand-left">
+      <a href="index.html"><img src="image/Logo-removebg-preview.png" alt="Kiara's Creative Corner Logo" class="logo-img" data-fallback="logo" /></a>
+    </div>
+    <a href="index.html" class="brand-title">Kiara's Creative Corner</a>
+    <div class="banner-right">
+      <label class="theme-switch" title="Toggle Dark / Light Mode">
+        <input type="checkbox" id="themeToggle" />
+        <span class="switch-slider"></span>
+      </label>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="hamburger-btn" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </label>
+      <nav class="side-drawer">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About Us</a>
+        <a href="events.html">Event</a>
+        <a href="#contact">Contact</a>
+        <button type="button" class="drawer-action-btn" onclick="openOrderPoster()">How to Order Poster</button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="screen-section" id="products-main">
+    <div class="section-wrap">
+      <h1 class="section-heading">Collection</h1>
+      <p class="section-sub">Click a category to explore what's inside.</p>
+
+      <input type="radio" name="main-cat" id="cat-crochets" class="cat-radio" />
+      <input type="radio" name="main-cat" id="cat-keychains" class="cat-radio" />
+      <input type="radio" name="main-cat" id="cat-candles" class="cat-radio" />
+
+      <!-- 3 Main Category Tiles -->
+      <div class="compact-grid-3">
+        <label for="cat-crochets" class="modern-tile">
+          <img src="image/crochet card.jpg" alt="Crochets" data-fallback="subBouquet" />
+          <div class="modern-tile-label">Crochets</div>
+        </label>
+
+        <label for="cat-keychains" class="modern-tile">
+          <img src="image/subkeychains.JPG" alt="Keychains" data-fallback="kc1" />
+          <div class="modern-tile-label">Keychains</div>
+        </label>
+
+        <label for="cat-candles" class="modern-tile">
+          <img src="image/subcandles.jpg" alt="Candles" data-fallback="cd1" />
+          <div class="modern-tile-label">Candles</div>
+        </label>
+      </div>
+
+      <!-- Crochets Subcategories WITH Images -->
+      <div class="reveal-group crochets-subcats">
+        <h2 style="font-size:1.35rem; margin-bottom:6px;">Crochet Subcategories</h2>
+        <input type="radio" name="crochet-sub" id="sub-bouquets" class="subcat-radio" />
+        <input type="radio" name="crochet-sub" id="sub-bags" class="subcat-radio" />
+        <input type="radio" name="crochet-sub" id="sub-scrunchies" class="subcat-radio" />
+
+        <div class="compact-grid-3">
+          <label for="sub-bouquets" class="modern-tile">
+            <img src="assets/sub-bouquets.jpg" alt="Bouquets" data-fallback="subBouquet" />
+            <div class="modern-tile-label">Bouquets</div>
+          </label>
+
+          <label for="sub-bags" class="modern-tile">
+            <img src="assets/sub-bags.jpg" alt="Bags" data-fallback="subBag" />
+            <div class="modern-tile-label">Bags</div>
+          </label>
+
+          <label for="sub-scrunchies" class="modern-tile">
+            <img src="assets/sub-scrunchies.jpg" alt="Scrunchies" data-fallback="subScrunchie" />
+            <div class="modern-tile-label">Scrunchies</div>
+          </label>
+        </div>
+
+        <div class="reveal-group bouquets-items">
+          <h3 style="margin-bottom:10px;">Bouquets</h3>
+          <div class="compact-grid-3" data-group="bouquets"></div>
+        </div>
+
+        <div class="reveal-group bags-items">
+          <h3 style="margin-bottom:10px;">Bags</h3>
+          <div class="compact-grid-3" data-group="bags"></div>
+        </div>
+
+        <div class="reveal-group scrunchies-items">
+          <h3 style="margin-bottom:10px;">Scrunchies</h3>
+          <div class="compact-grid-3" data-group="scrunchies"></div>
+        </div>
+      </div>
+
+      <!-- Keychains Products (3) -->
+      <div class="reveal-group keychains-items">
+        <h2 style="font-size:1.35rem; margin-bottom:10px;">Keychains</h2>
+        <div class="compact-grid-3" data-group="keychains"></div>
+      </div>
+
+      <!-- Candles Products (4) -->
+      <div class="reveal-group candles-items">
+        <h2 style="font-size:1.35rem; margin-bottom:10px;">Candles</h2>
+        <div class="compact-grid-3" data-group="candles"></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer" id="contact">
+    <div class="footer-box">
+      <h2>Contact</h2>
+    <ul class="contact-info-list">
+        <li>
+            <strong>Facebook:</strong> 
+            <a href="https://www.facebook.com/profile.php?id=61590689222735" target="_blank" rel="noopener noreferrer">Kiara's Creative Corner</a>
+        </li>
+        <li>
+            <strong>Email:</strong> 
+            <a href="mailto:kiara.kapengbarako@gmail.com">kiara.kapengbarako@gmail.com</a>
+        </li>
+        <li>
+            <strong>Phone:</strong> 
+            <a href="tel:+639164323908">0916 432 3908</a>
+        </li>
+    </ul>
+    </div>
+  </footer>
+
+  <!-- Product Detail Modal -->
+  <div class="modal-overlay" id="productModal" onclick="if(event.target===this)closeProductModal()">
+    <div class="modal-panel">
+      <button type="button" class="modal-x" onclick="closeProductModal()">✕</button>
+      <img id="modalProdImg" src="" alt="" style="width:100%; height:210px; object-fit:cover; border-radius:14px; margin-bottom:14px;" />
+      <h2 id="modalProdName"></h2>
+      <p id="modalProdDesc" style="margin-top:8px; color:var(--muted);"></p>
+
+      <div class="modal-btns">
+        <button type="button" class="btn-rose" id="likeBtn">♥ Like (<span id="likeCount">0</span>)</button>
+        <button type="button" class="btn-rose" style="background:var(--accent-deep);" onclick="openOrderPoster()">How to Order</button>
+      </div>
+
+      <hr style="border:none; border-top:1px solid var(--border); margin:14px 0;" />
+      <h3>Reviews</h3>
+      <div id="reviewList" style="margin-top:10px;"></div>
+      <form class="review-entry-form" id="reviewForm">
+        <input type="text" id="reviewerName" placeholder="Your name" required />
+        <textarea id="reviewText" rows="2" placeholder="Leave a review for this item..." required></textarea>
+        <button type="submit" class="btn-rose">Post Review</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- How to Order Poster Modal -->
+  <div class="modal-overlay" id="orderPosterModal" onclick="if(event.target===this)closeOrderPoster()">
+    <div class="modal-panel">
+      <button type="button" class="modal-x" onclick="closeOrderPoster()">✕</button>
+      <h3>How to Order</h3>
+      <img id="orderPosterImg" src="" alt="How to Order Poster" style="width:100%; border-radius:14px; margin:14px 0;" />
+     <p>
+  Message 
+  <a href="https://www.facebook.com/profile.php?id=61590689222735" target="_blank" rel="noopener noreferrer"><strong>Kiara's Creative Corner</strong></a> 
+  on Facebook or email 
+  <a href="mailto:kiara.kapengbarako@gmail.com"><strong>kiara.kapengbarako@gmail.com</strong></a>.
+</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

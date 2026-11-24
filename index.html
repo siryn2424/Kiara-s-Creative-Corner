@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kiara's Creative Corner — Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Patrick+Hand&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <header class="top-banner" id="topBanner">
+    <div class="brand-left">
+      <a href="index.html"><img src="image/Logo-removebg-preview.png" alt="Kiara's Creative Corner Logo" class="logo-img" data-fallback="logo" /></a>
+    </div>
+    <a href="index.html" class="brand-title">Kiara's Creative Corner</a>
+
+    <div class="banner-right">
+      <label class="theme-switch" title="Toggle Dark / Light Mode">
+        <input type="checkbox" id="themeToggle" />
+        <span class="switch-slider"></span>
+      </label>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="hamburger-btn" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </label>
+      <nav class="side-drawer">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About Us</a>
+        <a href="events.html">Event</a>
+        <a href="#contact">Contact</a>
+        <button type="button" class="drawer-action-btn" onclick="openOrderPoster()">How to Order Poster</button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="screen-section" style="padding:0; min-height:100vh;">
+    <div class="hero-carousel">
+      <div class="hero-track">
+        <article class="hero-slide" id="home-slide-1">
+          <img src="image/homepage1.jpg" alt="Handmade crochet and craft pieces" data-fallback="hero1" />
+          <div class="hero-scrim"></div>
+          <div class="hero-overlay-text">
+            <h1 class="hero-h1">Kiara's Creative Corner</h1>
+            <p class="hero-p">
+              Welcome! We are a handmade brand crafting thoughtful crochet pieces, playful keychains, and comforting candles to bring a little warmth to your everyday life.
+            </p>
+            <div class="btn-row">
+              <a href="products.html" class="btn-rose">Explore Collection</a>
+              <a href="about.html" class="btn-ghost">How It All Started</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="hero-slide" id="home-slide-2">
+          <img src="image/homecrochet.png" alt="Crochet bouquets, bags, and scrunchies" data-fallback="hero2" />
+            <div class="hero-scrim"></div>
+          <div class="hero-overlay-text">
+            <h1 class="hero-h1">Stitched for Everyday Warmth</h1>
+            <p class="hero-p">
+              Featuring our hand-crocheted tote and pouches, plush ruffled scrunchies, and forever floral bouquets crafted in warm, earthy tones meant to be carried, worn and gifted for years.
+            </p>
+          </div>
+        </article>
+
+        <article class="hero-slide" id="home-slide-3">
+          <img src="image/HomeSlide2Image .png" alt="Chunky and charm keychains" data-fallback="hero3" />
+            <div class="hero-scrim"></div>
+          <div class="hero-overlay-text">
+            <h1 class="hero-h1">Cute Handmade Keychains & Bag Accessoriesh</h1>
+            <p class="hero-p">
+              Handmade with cheerful details, our keychains add a sweet pop of personality to your keys, bags, and pouches. Lightweight and lovingly crafted, they make fun everyday companions and easy little gifts for friends.
+            </p>
+          </div>
+        </article>
+
+        <article class="hero-slide" id="home-slide-4">
+          <img src="image/homecandle.png" alt="Hand-poured scented candles" data-fallback="hero4" />
+            <div class="hero-scrim"></div>
+          <div class="hero-overlay-text">
+            <h1 class="hero-h1">Scented Flower Candles</h1>
+            <p class="hero-p">
+                Thoughtfully hand-poured for quiet, cozy moments, these floral candles fill your space with a gentle glow and soothing scent. Each piece is delicately shaped to brighten your desk, bedside table, or gift box.
+            </p>
+          </div>
+        </article>
+      </div>
+
+      <div class="dot-nav" aria-label="Homepage slides">
+        <a href="#home-slide-1" aria-label="Slide 1"></a>
+        <a href="#home-slide-2" aria-label="Slide 2"></a>
+        <a href="#home-slide-3" aria-label="Slide 3"></a>
+        <a href="#home-slide-4" aria-label="Slide 4"></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Additional Full-Screen Info Section Below Homepage Carousel -->
+  <section class="screen-section alt-bg" id="more-info">
+    <div class="section-wrap">
+      <h2 class="section-heading">Why Handmade Feels Different</h2>
+      <p class="section-sub">
+        Every item in our collection is shaped by unhurried hands, soft textures, and small details meant to last beyond a single season.
+      </p>
+
+      <div class="editorial-grid-3">
+        <div>
+          <img src="image/info1.JPG" alt="Detailed crochet stitches" class="unframed-photo" data-fallback="info1" />
+          <h3>Stitched for Keepsakes</h3>
+          <p style="color:var(--muted);">
+            Unlike fleeting trends, yarn blooms and woven accessories stay vivid and meaningful long after special occasions pass.
+          </p>
+        </div>
+
+        <div>
+          <img src="image/info2.JPG" alt="Curated gift pairings" class="unframed-photo" data-fallback="info2" />
+          <h3>Thoughtful Everyday Gifts</h3>
+          <p style="color:var(--muted);">
+            Mix and match keychains, scrunchies, or candles to put together personal surprises for friends, partners, or yourself.
+          </p>
+        </div>
+
+        <div>
+          <img src="image/info3.JPG" alt="Cozy studio atmosphere" class="unframed-photo" data-fallback="info3" />
+          <h3>Made Slowly, With Care</h3>
+          <p style="color:var(--muted);">
+            No mass production here! Every stitch, knot, and scent blend is made by hand and packed with aattention from start to wrap.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer" id="contact">
+    <div class="footer-box">
+      <h2>Contact</h2>
+      <ul class="contact-info-list">
+  <li>
+    <strong>Facebook:</strong> 
+    <a href="https://www.facebook.com/profile.php?id=61590689222735" target="_blank" rel="noopener noreferrer">Kiara's Creative Corner</a>
+  </li>
+  <li>
+    <strong>Email:</strong> 
+    <a href="mailto:kiara.kapengbarako@gmail.com">kiara.kapengbarako@gmail.com</a>
+  </li>
+  <li>
+    <strong>Phone:</strong> 
+    <a href="tel:+639164323908">0916 432 3908</a>
+  </li>
+</ul>
+    </div>
+  </footer>
+
+  <div class="modal-overlay" id="orderPosterModal" onclick="if(event.target===this)closeOrderPoster()">
+    <div class="modal-panel">
+      <button type="button" class="modal-x" onclick="closeOrderPoster()">✕</button>
+      <h3>How to Order</h3>
+      <img id="orderPosterImg" src="" alt="How to Order Poster" style="width:100%; border-radius:14px; margin:14px 0;" />
+      <p>Reach out on Facebook (<strong>Kiara's Creative Corner</strong>) or email <strong>kiara.kapengbarako@gmail.com</strong> with your item name.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
