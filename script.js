@@ -95,7 +95,7 @@ const PRODUCTS = {
     { id: "kc-3", name: "Bunny Pop Charm", img: "image/kid’sbracelet.jpg", desc: "A colorful beaded keychain featuring an adorable bunny character and pastel-colored accessories." }
   ],
   candles: [
-    { id: "cd-1", name: "Rosie Blush Candle", img: "image/redcandle.jpg", desc: "A beautiful pink rose-shaped candle with delicate petals, perfect for adding a floral touch to any space." },
+    { id: "cd-1", name: "Rosie Blush Candle", img: "image/redcandle.JPG", desc: "A beautiful pink rose-shaped candle with delicate petals, perfect for adding a floral touch to any space." },
     { id: "cd-2", name: "Warm Vanilla Cream", img: "image/Vanilla.jpg", desc: "Smooth vanilla fragrance that softens any room or study corner." },
     { id: "cd-3", name: "Lilac Bloom Candle", img: "image/Lavender.jpg", desc: "A charming lavender rose-shaped candle with beautifully layered petals." },
     { id: "cd-4", name: "Baby Blue Blossom", img: "image/Eucalyptus (1).jpg", desc: "A soft blue rose-shaped candle with detailed petals, perfect for a calming and elegant decoration." }
