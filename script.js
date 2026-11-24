@@ -77,13 +77,13 @@ function closeOrderPoster() {
 // 4. Products Catalog (Bouquets: 3, Bags: 2, Scrunchies: 2, Keychains: 3, Candles: 4)
 const PRODUCTS = {
   bouquets: [
-    { id: "bq-1", name: "Earthy Bouquet", img: "image/earthyBouquet.jpeg", desc: "Soft pastel blooms hand-crocheted for lasting keepsake gifting." },
-    { id: "bq-2", name: "Red Roses Bouquet", img: "image/redroses.jpeg", desc: "Mixed crochet blossoms arranged with gentle texture and care." },
-    { id: "bq-3", name: "Mini Tulip Keepsake", img: "image/Assorted color roses.jpeg", desc: "Compact yarn tulip bundle ideal for desks, shelves, or surprises." }
+    { id: "bq-1", name: "Golden Bloom Bouquet", img: "image/earthyBouquet.jpeg", desc: "A lovely handmade crochet flower bouquet featuring warm brown, cream, and yellow tones, beautifully wrapped for a charming and lasting gift." },
+    { id: "bq-2", name: "Ruby Rose Bouquet", img: "image/redroses.jpeg", desc: "A beautiful bouquet of handcrafted red crochet roses, making a thoughtful and everlasting gift for someone special." },
+    { id: "bq-3", name: "Pastel Petal Bouquet", img: "image/Assorted color roses.jpeg", desc: "A colorful arrangement of handmade crochet flowers in soft pastel shades, perfect for brightening someone's day." }
   ],
   bags: [
-    { id: "bg-1", name: "Ube Crochet Purse", img: "image/bag1.jpg", desc: "Roomy handmade tote crafted for notebooks, pouches, and daily essentials." },
-    { id: "bg-2", name: "Sweetheart Bag Set", img: "image/bag2.PNG", desc: "Light and neat everyday bag for quick errands and outings." }
+    { id: "bg-1", name: "Lavender Dream Tote", img: "image/bag1.jpg", desc: "A stylish purple crochet mini bag with a lovely combination of light and dark purple yarn." },
+    { id: "bg-2", name: "The Cozy Trio Set", img: "image/bag2.PNG", desc: "A handmade crochet shoulder bag with matching pouches for organizing everyday essentials." }
   ],
   scrunchies: [
     { id: "sc-1", name: "Cloud Scrunchie", img: "image/chunckiescrunchie.jpeg", desc: "Plush, gentle hair scrunchie made with soft pastel yarn." },
@@ -91,14 +91,14 @@ const PRODUCTS = {
   ],
   keychains: [
     { id: "kc-1", name: "Chunky Letter Keychain", img: "image/chunkykeychain.JPG", desc: "Bold letter charm styled with playful accents for keys or bags." },
-    { id: "kc-2", name: "Mini Stanley Keychain", img: "image/keychainstanley.JPG", desc: "Cute berry-inspired keychain for pouches, totes, and gift sets." },
-    { id: "kc-3", name: "Kid's Keychain Bracelet", img: "image/kid’sbracelet.jpg", desc: "Soft bow charm adding a dainty pastel touch to everyday carry." }
+    { id: "kc-2", name: "Cozy Sip Buddy", img: "image/keychainstanley.JPG", desc: "A beige handmade crochet tumbler holder with soft yarn details and neutral-colored beads." },
+    { id: "kc-3", name: "Bunny Pop Charm", img: "image/kid’sbracelet.jpg", desc: "A colorful beaded keychain featuring an adorable bunny character and pastel-colored accessories." }
   ],
   candles: [
-    { id: "cd-1", name: "Pink Sugar Calm", img: "assets/p-cd1.jpg", desc: "Sweet, cozy scent poured for winding down after busy days." },
-    { id: "cd-2", name: "Warm Vanilla Cream", img: "assets/p-cd2.jpg", desc: "Smooth vanilla fragrance that softens any room or study corner." },
-    { id: "cd-3", name: "Peony & Mist", img: "assets/p-cd3.jpg", desc: "Light floral scent with a clean, comforting finish." },
-    { id: "cd-4", name: "Honeyed Amber", img: "assets/p-cd4.jpg", desc: "Warm amber blend crafted for relaxed evenings and slow rest." }
+    { id: "cd-1", name: "Rosie Blush Candle", img: "image/redcandle.jpg", desc: "A beautiful pink rose-shaped candle with delicate petals, perfect for adding a floral touch to any space." },
+    { id: "cd-2", name: "Warm Vanilla Cream", img: "image/Vanilla.jpg", desc: "Smooth vanilla fragrance that softens any room or study corner." },
+    { id: "cd-3", name: "Lilac Bloom Candle", img: "image/Lavender.jpg", desc: "A charming lavender rose-shaped candle with beautifully layered petals." },
+    { id: "cd-4", name: "Baby Blue Blossom", img: "image/Eucalyptus (1).jpg", desc: "A soft blue rose-shaped candle with detailed petals, perfect for a calming and elegant decoration." }
   ]
 };
 

@@ -108,7 +108,7 @@
       </p>
 
       <div class="editorial-grid-3">
-        <div>
+        <div> 
           <img src="image/info1.JPG" alt="Detailed crochet stitches" class="unframed-photo" data-fallback="info1" />
           <h3>Stitched for Keepsakes</h3>
           <p style="color:var(--muted);">
@@ -137,21 +137,27 @@
 
   <footer class="site-footer" id="contact">
     <div class="footer-box">
-      <h2>Contact</h2>
+      <h2>Contact Us</h2>
       <ul class="contact-info-list">
-  <li>
-    <strong>Facebook:</strong> 
-    <a href="https://www.facebook.com/profile.php?id=61590689222735" target="_blank" rel="noopener noreferrer">Kiara's Creative Corner</a>
-  </li>
-  <li>
-    <strong>Email:</strong> 
-    <a href="mailto:kiara.kapengbarako@gmail.com">kiara.kapengbarako@gmail.com</a>
-  </li>
-  <li>
-    <strong>Phone:</strong> 
-    <a href="tel:+639164323908">0916 432 3908</a>
-  </li>
-</ul>
+        <li>
+          <strong>Facebook:</strong>
+          <a href="https://www.facebook.com/profile.php?id=61590689222735" target="_blank" rel="noopener noreferrer">Kiara’s Creative Corner</a>
+        </li>
+        <li>
+          <strong>Email:</strong>
+          <a href="mailto:kiara.kapengbarako@gmail.com">kiara.kapengbarako@gmail.com</a>
+        </li>
+        <li>
+          <strong>Phone:</strong>
+          <a href="tel:+639164323908">0916 432 3908</a>
+        </li>
+      </ul>
+      <form class="inquiry-form" onsubmit="event.preventDefault(); alert('Inquiry noted for design preview.');">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="3" placeholder="Send a note or question..." required></textarea>
+        <button type="submit" class="btn-rose">Send Message</button>
+      </form>
     </div>
   </footer>
 
@@ -160,7 +166,13 @@
       <button type="button" class="modal-x" onclick="closeOrderPoster()">✕</button>
       <h3>How to Order</h3>
       <img id="orderPosterImg" src="" alt="How to Order Poster" style="width:100%; border-radius:14px; margin:14px 0;" />
-      <p>Reach out on Facebook (<strong>Kiara's Creative Corner</strong>) or email <strong>kiara.kapengbarako@gmail.com</strong> with your item name.</p>
+      <p>
+        Message
+        <a href="https://www.facebook.com/profile.php?id=61590689222735" target="_blank" rel="noopener noreferrer"><strong>Kiara’s Creative Corner</strong></a>
+        on Facebook or email
+        <a href="mailto:kiara.kapengbarako@gmail.com"><strong>kiara.kapengbarako@gmail.com</strong></a>
+        with your chosen item and quantity.
+      </p>
     </div>
   </div>
 
